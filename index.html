@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivan Rodriguez - AI Engineer & Full-Stack Developer</title>
+    <title>Ivan Rodriguez - AI Software Graphics Engineer</title>
+    <meta name="description"
+        content="Ivan Rodriguez - AI Software Graphics Engineer. Full-stack engineering, machine learning, 3D and 2D graphics, and mathematical modeling.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +23,9 @@
             <div class="logo">IR.</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#ai">AI &amp; ML</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -33,17 +36,28 @@
         <div class="hero-content fade-in">
             <div class="hero-text">
                 <h1>Ivan Rodriguez</h1>
-                <h2 class="subtitle">AI Engineer | Full-Stack Developer | Data Scientist</h2>
-                <p class="profile-summary">
-                    Full-stack developer with proven expertise including data science and mathematical modeling. Proven
-                    ability to co-author and develop high-tech, client-requested services for modern platforms.
-                </p>
+                <h2 class="subtitle">AI Software Graphics Engineer</h2>
+                <div class="profile-summary">
+                    <p>A versatile Software Engineer and Data Scientist with expertise in Mathematical Modeling,
+                        Machine Learning, and full-stack development, delivering innovative solutions that enhance user
+                        experiences and drive impactful outcomes. Key projects include developing data augmentation
+                        techniques to improve prediction accuracy, creating tools for advanced multivariate experiments
+                        and AB testing, and building custom rendering engines to optimize processing efficiency.</p>
+                    <p>Proficient in JavaScript, Python, Go, ReactJS, and cloud platforms such as AWS, with a strong
+                        foundation in data visualization, experimental design, and optimization. Holds an MSc in
+                        Artificial Intelligence, with a focus on blending analytics and technology to create scalable,
+                        impactful solutions.</p>
+                    <p>Passionate about solving complex problems, driving innovation, and collaborating with diverse
+                        teams to deliver results.</p>
+                </div>
                 <div class="contact-links">
                     <a href="mailto:ivan.rodriguez.lop32@gmail.com" class="btn primary-btn"><i
                             class="fa-solid fa-envelope"></i> Contact Me</a>
-                    <a href="https://www.linkedin.com/in/ivan-rodriguez-f0f8ff" target="_blank"
+                    <a href="assets/Ivan-Rodriguez-Software-and-Graphics-Engineer.pdf" target="_blank"
+                        class="btn secondary-btn"><i class="fa-solid fa-file-pdf"></i> Download CV</a>
+                    <a href="https://www.linkedin.com/in/ivan-rodriguez-f0f8ff/" target="_blank" rel="noopener"
                         class="btn secondary-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-                    <a href="https://github.com/ivan-i1" target="_blank" class="btn secondary-btn"><i
+                    <a href="https://github.com/ivan-i1" target="_blank" rel="noopener" class="btn secondary-btn"><i
                             class="fa-brands fa-github"></i> GitHub</a>
                 </div>
             </div>
@@ -54,27 +68,47 @@
     </header>
 
     <main>
-        <section id="skills" class="section">
+        <section id="ai" class="section">
             <div class="section-container fade-in">
-                <h2 class="section-title">Technical Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <h3><i class="fa-solid fa-code"></i> Languages</h3>
-                        <p>Python, Javascript, NodeJS, ReactJS, Typescript, HTML5, CSS, ES6, Go, Bash, Ruby, MySQL,
-                            PostgreSQL, C, C++, C#, Unity</p>
+                <h2 class="section-title">AI &amp; Machine Learning</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Explainable AI for Black-Box Models</h3>
+                        <h4>M.Sc. research, National College of Ireland</h4>
+                        <p>Built visual explanation tooling for CNN, deep learning, and deep Q-learning models using
+                            LIME, SHAP, and Grad-CAM, producing per-prediction attribution maps for models with no
+                            native interpretability.</p>
+                        <div class="tag-list">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">LIME</span>
+                            <span class="tag">SHAP</span>
+                            <span class="tag">Grad-CAM</span>
+                            <span class="tag">Imagemagick</span>
+                        </div>
                     </div>
-                    <div class="skill-card">
-                        <h3><i class="fa-solid fa-layer-group"></i> Libraries & DSLs</h3>
-                        <p>Pandas, Numpy, Express, Scikit, TensorFlow, Lime, Shap, Grad-Cam, ThreeJS, D3, Lottie, GSAP,
-                            XML, SVG, JSON</p>
+                    <div class="project-card">
+                        <h3>Retinopathy Classification</h3>
+                        <h4>M.Sc. research</h4>
+                        <p>Novel data augmentation approach using CNN with ReLU, max pooling, and dropout; orchestrated
+                            with Dagster.</p>
+                        <div class="tag-list">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Dagster</span>
+                            <span class="tag">CNN</span>
+                        </div>
                     </div>
-                    <div class="skill-card">
-                        <h3><i class="fa-solid fa-cubes"></i> Frameworks</h3>
-                        <p>Bootstrap, PixiJS, Jest, Rails, Parcel, Dagster</p>
-                    </div>
-                    <div class="skill-card">
-                        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
-                        <p>Git, Docker, AWS, Jupyter Notebooks, Google Colab, Grafana, JSON Prompting</p>
+                    <div class="project-card">
+                        <h3>Low-Data Price Prediction</h3>
+                        <h4>Odetta</h4>
+                        <p>Derived a market data augmentation technique from the Central Limit Theorem and Fourier
+                            analysis, increasing price prediction accuracy on sparse entries by 70%.</p>
+                        <div class="tag-list">
+                            <span class="tag">Central Limit Theorem</span>
+                            <span class="tag">Fourier Analysis</span>
+                            <span class="tag">Pricing Models</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,74 +118,159 @@
             <div class="section-container fade-in">
                 <h2 class="section-title">Professional Experience</h2>
                 <div class="timeline">
-                    <!-- Job 1 -->
+                    <!-- Crafty Amigo -->
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <span class="timeline-date">Jan 2023 - May 2024</span>
-                            <h3 class="job-title">Software Engineer</h3>
-                            <h4 class="company-name">Glezztech, TX (Remote)</h4>
+                            <span class="timeline-date">Apr 2026 - Present</span>
+                            <h3 class="job-title">Software Engineer - Graphics and 3D Pipeline</h3>
+                            <h4 class="company-name">Crafty Amigo, CA</h4>
+                            <p class="role-summary">Implementation of an automated acceptance + 3D processing + AI
+                                pipeline for parts.</p>
                             <ul>
-                                <li>Implementation and test automation of an ML classifying software to differentiate
-                                    between human and machine users.</li>
-                                <li>Ensured complete test case coverage using Bash scripts and Jest.</li>
+                                <li>Combine geometric algorithms with AI calls for automated assessment of parts,
+                                    orchestrated by LangGraph.</li>
+                                <li>Develop a prototype MCP server for AI Blender automated usage.</li>
+                                <li>Migrate the system from Blender to ThreeJS, removing the dependence on processing in
+                                    an application.</li>
+                                <li>Create a review platform giving access to other team members, increasing the
+                                    approval of new parts from 20 a day to 100 per person.</li>
+                                <li>Collaborate with a tight team of 4 people for a fast paced improvement of the
+                                    platform.</li>
+                                <li>Operate a shared remote build environment (Tailscale, tmux sessions) supporting 4
+                                    members across Guadalajara and California.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- GlezzTech -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Feb 2023 - May 2024</span>
+                            <h3 class="job-title">Software Engineer</h3>
+                            <h4 class="company-name">GlezzTech, Texas (Remote)</h4>
+                            <p class="role-summary">Implementation and test automation of a platform classifying human
+                                versus robot entities, similar to ReCaptcha.</p>
+                            <ul>
+                                <li>Ensured complete test case coverage across the whole project using Bash scripts for
+                                    automatic detection, Jest, and a TDD philosophy.</li>
                                 <li>Developed custom Shell tools for automatic signaling and creation of missing test
                                     cases.</li>
-                                <li>Implemented applications using React Native, Typescript, and React Hooks.</li>
+                                <li>Implemented the application using React Native, Typescript, and React Hooks.</li>
                             </ul>
                         </div>
                     </div>
-                    <!-- Job 2 -->
+                    <!-- Odetta -->
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <span class="timeline-date">Mar 2022 - Jan 2023</span>
+                            <span class="timeline-date">Feb 2022 - Jan 2023</span>
                             <h3 class="job-title">Data Scientist</h3>
-                            <h4 class="company-name">Odetta, CDMX (Remote)</h4>
+                            <h4 class="company-name">Odetta, Mexico City (Remote)</h4>
+                            <p class="role-summary">Platform development, assisting the CTO with mathematical and
+                                statistical insight on the company's Pricing Model.</p>
                             <ul>
-                                <li>Provided mathematical and statistical insight on the company's Pricing Model to the
-                                    CTO.</li>
-                                <li>Developed a market data augmentation technique using CLT and Fourier analysis,
-                                    increasing price prediction accuracy by 70%.</li>
-                                <li>Simplified internal transaction tracking and finite state machines, resulting in a
-                                    cleaner company dashboard.</li>
+                                <li>Developed a market data augmentation technique using CLT and Fourier analysis that
+                                    increased price prediction accuracy of low-data entries by 70%.</li>
+                                <li>Enhanced and merged the finite state machine for transactions by tracking the rest
+                                    of the site's internal transactions, resulting in a cleaner, up-to-date dashboard
+                                    for other departments.</li>
+                                <li>Doubled as Full Stack Engineer for the company.</li>
                             </ul>
                         </div>
                     </div>
-                    <!-- Job 3 -->
+                    <!-- Envato - Software Engineer -->
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <span class="timeline-date">Dec 2018 - Mar 2022</span>
+                            <span class="timeline-date">Nov 2020 - Jan 2022</span>
                             <h3 class="job-title">Software Engineer</h3>
-                            <h4 class="company-name">Envato, GDL</h4>
+                            <h4 class="company-name">Envato, Guadalajara</h4>
+                            <p class="role-summary">Co-authored and developed several high-tech client-requested
+                                services to further increase the capabilities of the overall platform.</p>
                             <ul>
-                                <li>Co-created an Experiment Manager for multivariate experiments and AB testing,
-                                    eliminating the need for Google Optimize.</li>
-                                <li>Engaged in ML Background Removal project initiative exploring image processing
-                                    techniques.</li>
-                                <li>Optimized and documented the Graphic Processing Engine, reducing daily debugging
-                                    time by 1 hour for three teams.</li>
-                                <li>Co-created an automatic mesh warp feature using displacement maps, reducing mockup
-                                    time by 50% or more.</li>
+                                <li>Co-created an Experiment Manager enabling the engineering department to deploy
+                                    statistically correct multivariate experiments and AB testing using a single
+                                    experiment ID per user, eliminating the use of Google Optimize and providing
+                                    enriched analytics capabilities.</li>
+                                <li>Participated in the ML Background Removal initiative to explore mathematical
+                                    insights and image processing techniques; the project was ultimately discontinued.
+                                </li>
+                                <li>Added user-requested functionality for the site, heightening the overall platform
+                                    experience for hundreds of thousands of subscribers.</li>
                             </ul>
                         </div>
                     </div>
-                    <!-- Job 4 -->
+                    <!-- Envato - Frontend Engineer -->
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content">
-                            <span class="timeline-date">Jan 2016 - Dec 2018</span>
+                            <span class="timeline-date">Dec 2017 - Nov 2020</span>
                             <h3 class="job-title">Frontend Engineer</h3>
-                            <h4 class="company-name">Placeit, GDL</h4>
+                            <h4 class="company-name">Envato, Guadalajara</h4>
                             <ul>
-                                <li>Collaborated in developing a Multi-layer Graphic Processing Engine to replace
-                                    Photoshop, saving costs and processing time.</li>
-                                <li>Integrated reverse-engineered visual effects modules and ported thousands of
-                                    templates.</li>
-                                <li>Implemented automatically rebalancing "smart templates" based on visual design
-                                    axioms.</li>
-                                <li>Designed a scripting DSL and API used by 12 people to create smart templates.</li>
+                                <li>Performed code analysis, optimization, cleanup, and documentation on the Graphic
+                                    Processing Engine, practically eradicating errors from new smart templates and
+                                    freeing a daily hour of work for 3 different teams of 20 people.</li>
+                                <li>Co-created an automatic mesh warp feature using displacement maps, reducing simple
+                                    mockup time from 1 hour to half or less for a team of around 20 people.</li>
+                                <li>Developed an image crop feature for the platform, further increasing functionality
+                                    and usability.</li>
+                                <li>Received recognition for improvements to the Graphic Processing Engine and its
+                                    documentation, facilitating knowledge transfer and reducing time spent by 40%.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Placeit -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Oct 2016 - Dec 2017</span>
+                            <h3 class="job-title">Frontend Engineer</h3>
+                            <h4 class="company-name">Placeit, Guadalajara</h4>
+                            <p class="role-summary">Automate Photoshop and later replace it with a custom-built
+                                client-side graphic-rendering engine.</p>
+                            <ul>
+                                <li>Collaborated in developing a multi-layer Graphic Processing Engine replacing
+                                    Photoshop, saving significant costs and processing time.</li>
+                                <li>Integrated reverse-engineered visual effects modules and adapted API functions,
+                                    porting thousands of templates with minimal platform usability disruption.</li>
+                                <li>Received recognition for the smooth transition, with only a few templates
+                                    encountering processing issues.</li>
+                                <li>Ran comparative analysis between Photoshop and the new Engine, showing reduced
+                                    processing times, decreased server needs, and lower costs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Freshout -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jan 2016 - Oct 2016</span>
+                            <h3 class="job-title">Junior Software Engineer</h3>
+                            <h4 class="company-name">Freshout, Guadalajara</h4>
+                            <ul>
+                                <li>Researched, documented, and experimented on several visual design axioms, resulting
+                                    in automatically rebalancing smart templates which became a key product of the
+                                    company.</li>
+                                <li>Designed a scripting DSL and API, adopted by up to three departments of more than
+                                    ten people each, to create smart templates independently of the processing engine.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- IBM -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Nov 2014 - May 2015</span>
+                            <h3 class="job-title">Junior Test Automation Engineer</h3>
+                            <h4 class="company-name">IBM</h4>
+                            <ul>
+                                <li>Automated Robot Framework test cases for a Red Hat cluster, improving system
+                                    reliability and availability.</li>
+                                <li>Enhanced server uptime by 3%, speeding up testing and reducing maintenance costs.
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -159,37 +278,83 @@
             </div>
         </section>
 
-        <section id="education" class="section">
+        <section id="skills" class="section">
             <div class="section-container fade-in">
-                <h2 class="section-title">Education & Achievements</h2>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="top-skills">
+                    <span class="top-skills-label">Top Skills</span>
+                    <span class="top-skill"><i class="fa-solid fa-robot"></i> Automation</span>
+                    <span class="top-skill"><i class="fa-solid fa-diagram-project"></i> Agentic AI Development</span>
+                    <span class="top-skill"><i class="fa-solid fa-vial-circle-check"></i> Software Quality
+                        Assurance</span>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3><i class="fa-solid fa-code"></i> Languages</h3>
+                        <p>React Native, Python, Javascript, NodeJS, ReactJS, Typescript, HTML5, CSS, ES6, Go, Bash,
+                            Ruby, MySQL, PostgreSQL, Selenium, Perl, C, C++, C#, Unity, MongoDB, Angular, PHP, Assembly
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <h3><i class="fa-solid fa-brain"></i> ML &amp; Data</h3>
+                        <p>Pandas, Numpy, Seaborn, SciKit, Matplot, Tensorflow, Lime, Shap, Grad-Cam, XML, SVG, JSON,
+                            Express, Rails, Postman, Parcel, Dagster, LangGraph</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3><i class="fa-solid fa-cube"></i> Graphics &amp; Frontend</h3>
+                        <p>ThreeJS, D3, Lottie, GSAP, Bootstrap, PixiJS, Jest</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Infrastructure</h3>
+                        <p>Git, RStudio, VSCode, Docker, Dot, Conda, NPM, Imagemagick, Grafana, AWS, Jupyter Notebooks,
+                            Google Colab, Tailscale</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section bg-light">
+            <div class="section-container fade-in">
+                <h2 class="section-title">Education &amp; Achievements</h2>
                 <div class="education-grid">
                     <div class="edu-card">
                         <h3>M.Sc. in Artificial Intelligence</h3>
                         <h4>National College of Ireland</h4>
-                        <span class="edu-date">Sep 2024 - Sep 2025</span>
-                        <p><strong>Key Modules:</strong> Data Analysis for AI, Machine Learning, Intelligent Agents,
-                            AI-Driven Decision Making.</p>
-                        <p><strong>Projects:</strong> Retinopathy Classificator (CNN ReLu, TF), Explainable AI Tools
-                            (LIME, SHAP, GradCam).</p>
+                        <span class="edu-date">Sep 2024 - Oct 2025</span>
+                        <p><strong>Modules:</strong> Data Analysis for AI, Machine Learning, Emerging AI Technologies,
+                            Intelligent Agents, AI-Driven Decision Making, Data Governance and Ethics.</p>
+                        <p><strong>Projects:</strong> Retinopathy Classificator (CNN ReLU with MaxPooling and dropout
+                            layers), Explainable AI Tools (LIME, SHAP, GradCam).</p>
                     </div>
                     <div class="edu-card">
-                        <h3>B.Sc. in Computer Systems</h3>
-                        <h4>ITESM</h4>
-                        <span class="edu-date">2009 - 2015</span>
-                        <p><strong>Focus:</strong> Compiler design, Computer Graphics, Intelligent Systems, Web App
-                            Development.</p>
-                        <p><strong>Result:</strong> First Class Honors equivalence.</p>
+                        <h3>B.Sc. in Computer Science and Technology</h3>
+                        <h4>Tecnol&oacute;gico de Monterrey (ITESM)</h4>
+                        <span class="edu-date">Sep 2009 - Dec 2015</span>
+                        <p><strong>Focus:</strong> Compiler design, Computer Graphics, Quantitative Methods and
+                            Simulation, Intelligent Systems, Web App Development, Software Design and Architecture.</p>
+                        <p><strong>Result:</strong> 8.5 - Equivalent: First Class Honors.</p>
                     </div>
                 </div>
 
-                <h3 class="subsection-title">Interests & Achievements</h3>
+                <h3 class="subsection-title">Certifications</h3>
                 <ul class="achievements-list">
-                    <li><i class="fa-solid fa-award"></i> Attended Snowflake Dublin conference on automating data
-                        pipelines</li>
+                    <li><i class="fa-solid fa-certificate"></i> Responsive Web Design</li>
+                    <li><i class="fa-solid fa-certificate"></i> iTEP Academic-Plus Exam Mastery Badge</li>
+                    <li><i class="fa-solid fa-certificate"></i> Javascript (Basic)</li>
+                </ul>
+
+                <h3 class="subsection-title">Interests &amp; Achievements</h3>
+                <ul class="achievements-list">
+                    <li><i class="fa-solid fa-microphone-lines"></i> Member of Toastmasters International, on the
+                        Persuasive Influence path</li>
+                    <li><i class="fa-solid fa-award"></i> Attended a Snowflake Dublin conference on automating data
+                        pipelines with Dynamic Tables</li>
                     <li><i class="fa-solid fa-space-shuttle"></i> NASA Space Apps GDL Hackathon @ ITESM GDL</li>
                     <li><i class="fa-solid fa-hand-holding-heart"></i> Volunteer Social Service @ Unidos GDL</li>
-                    <li><i class="fa-solid fa-language"></i> <strong>Languages:</strong> English (Fluent), Spanish
-                        (Fluent), Japanese (Intermediate)</li>
+                    <li><i class="fa-solid fa-dice"></i> Board games enthusiast and hobbyist mathematician</li>
+                    <li><i class="fa-solid fa-cookie-bite"></i> Baking cookies</li>
+                    <li><i class="fa-solid fa-language"></i> <strong>Languages:</strong> Spanish (Native), English (C2 /
+                        Bilingual), Japanese (N4), Irish (Elementary)</li>
                 </ul>
             </div>
         </section>
@@ -200,7 +365,7 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <i class="fa-solid fa-location-dot"></i>
-                        <span>Co. Dublin, Ireland</span>
+                        <span>Dublin, Co. Dublin, Ireland</span>
                     </div>
                     <div class="contact-item">
                         <i class="fa-solid fa-phone"></i>
@@ -211,8 +376,22 @@
                         <a href="mailto:ivan.rodriguez.lop32@gmail.com">ivan.rodriguez.lop32@gmail.com</a>
                     </div>
                     <div class="contact-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/ivan-rodriguez-f0f8ff/" target="_blank"
+                            rel="noopener">linkedin.com/in/ivan-rodriguez-f0f8ff</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/ivan-i1" target="_blank" rel="noopener">github.com/ivan-i1</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        <a href="assets/Ivan-Rodriguez-Software-and-Graphics-Engineer.pdf" target="_blank">Download CV
+                            (PDF)</a>
+                    </div>
+                    <div class="contact-item">
                         <i class="fa-solid fa-passport"></i>
-                        <span>1G Visa (Full-time eligible)</span>
+                        <span>1G Visa, Mexican Passport</span>
                     </div>
                 </div>
             </div>
@@ -221,11 +400,14 @@
 
     <footer>
         <div class="footer-container">
-            <p>&copy; 2024 Ivan Rodriguez. All rights reserved.</p>
+            <p>&copy; 2026 Ivan Rodriguez. All rights reserved.</p>
             <div class="social-links">
-                <a href="https://github.com/ivan-i1" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/ivan-rodriguez-f0f8ff" target="_blank"><i
-                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ivan-i1" target="_blank" rel="noopener" aria-label="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ivan-rodriguez-f0f8ff/" target="_blank" rel="noopener"
+                    aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="assets/Ivan-Rodriguez-Software-and-Graphics-Engineer.pdf" target="_blank"
+                    aria-label="Download CV"><i class="fa-solid fa-file-pdf"></i></a>
             </div>
         </div>
     </footer>

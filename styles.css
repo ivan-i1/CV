@@ -164,10 +164,18 @@ ul {
 }
 
 .profile-summary {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     color: var(--slate-gray);
     margin-bottom: 2.5rem;
-    max-width: 600px;
+    max-width: 620px;
+}
+
+.profile-summary p {
+    margin-bottom: 1rem;
+}
+
+.profile-summary p:last-child {
+    margin-bottom: 0;
 }
 
 .hero-image-container {
@@ -231,6 +239,41 @@ ul {
     gap: 1rem;
 }
 
+/* Top Skills strip */
+.top-skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.top-skills-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--silver-accent);
+    margin-right: 0.25rem;
+}
+
+.top-skill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(37, 99, 235, 0.08);
+    border: 1px solid rgba(37, 99, 235, 0.25);
+    color: var(--primary);
+    border-radius: 20px;
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.top-skill i {
+    font-size: 0.9rem;
+}
+
 /* Skills Grid */
 .skills-grid {
     display: grid;
@@ -270,6 +313,67 @@ ul {
     font-size: 0.95rem;
     color: var(--slate-gray);
     line-height: 1.7;
+}
+
+/* AI & ML Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--primary);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+    border-color: var(--silver-accent);
+    border-top-color: var(--primary);
+}
+
+.project-card h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.25rem;
+}
+
+.project-card h4 {
+    color: var(--primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    color: var(--slate-gray);
+    margin-bottom: 1.25rem;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: auto;
+}
+
+.tag {
+    background: var(--light-bg);
+    border: 1px solid var(--border);
+    color: var(--slate-gray);
+    border-radius: 20px;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.78rem;
+    font-weight: 500;
 }
 
 /* Timeline / Experience */
@@ -349,6 +453,15 @@ ul {
     font-size: 1rem;
 }
 
+.role-summary {
+    font-style: italic;
+    color: var(--slate-gray);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    padding-left: 0.9rem;
+    border-left: 3px solid var(--border);
+}
+
 .timeline-content ul {
     list-style: disc;
     padding-left: 1.2rem;
@@ -408,6 +521,11 @@ ul {
 .subsection-title {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+/* extra breathing room when one list is followed by another subsection */
+.achievements-list + .subsection-title {
+    margin-top: 3rem;
 }
 
 .achievements-list li {
